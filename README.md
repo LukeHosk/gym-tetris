@@ -53,7 +53,7 @@ see [gym_tetris/actions.py](gym_tetris/actions.py).
 
 ```python
 from nes_py.wrappers import JoypadSpace
-import gym_tetris
+import gymnasium as gym_tetris
 from gym_tetris.actions import MOVEMENT
 
 env = gym_tetris.make('TetrisA-v0')
